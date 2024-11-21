@@ -1,0 +1,2089 @@
+<html lang="en" class="" style="background-color: rgb(0, 0, 0);"><head>
+      		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Content-Language" content="en-US">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="mobile-web-app-capable" content="yes">
+
+		
+					<title>Online Ordering by Global | Restaurant</title>
+		
+		
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Inter:400,600,700,800" rel="stylesheet">
+
+		<script async="" src="https://cdn.pendo.io/agent/static/7f5866d3-3f8b-4568-4266-42b020c5d0d2/pendo.js"></script><script src="https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.6zM9SN8ON8Q.O/m=client/rt=j/sv=1/d=1/ed=1/am=AAAg/rs=AHpOoo9LiInNUyZ6A99oK9HdmPXGee7Zyg/cb=gapi.loaded_0?le=scs" async=""></script><script type="text/javascript">
+			window.MBdataLayer = window.MBdataLayer || [];
+		</script>
+
+		<link rel="icon" href="https://d3bsq3k61902i2.cloudfront.net/apps/online-ordering/dist/img/gprpos/favicon.ico">
+		<link type="text/css" rel="stylesheet" media="screen" href="https://assets.hrpos.heartland.us/online/style.css">
+
+		
+			<style data-emotion=""></style><style data-jss="" data-meta="MuiSvgIcon">
+.MuiSvgIcon-root {
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  font-size: 1.5rem;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  flex-shrink: 0;
+  user-select: none;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #1362E2;
+}
+.MuiSvgIcon-colorSecondary {
+  color: #FCFCFC;
+}
+.MuiSvgIcon-colorAction {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiSvgIcon-colorError {
+  color: #f44336;
+}
+.MuiSvgIcon-colorDisabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+.MuiSvgIcon-fontSizeInherit {
+  font-size: inherit;
+}
+.MuiSvgIcon-fontSizeSmall {
+  font-size: 1.25rem;
+}
+.MuiSvgIcon-fontSizeLarge {
+  font-size: 2.1875rem;
+}
+</style><style data-jss="" data-meta="MuiPaper">
+.MuiPaper-root {
+  color: #203645;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+}
+.MuiPaper-rounded {
+  border-radius: 4px;
+}
+.MuiPaper-outlined {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiPaper-elevation0 {
+  box-shadow: none;
+}
+.MuiPaper-elevation1 {
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation2 {
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation3 {
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2),0px 3px 4px 0px rgba(0,0,0,0.14),0px 1px 8px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation4 {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation5 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 5px 8px 0px rgba(0,0,0,0.14),0px 1px 14px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation6 {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation7 {
+  box-shadow: 0px 4px 5px -2px rgba(0,0,0,0.2),0px 7px 10px 1px rgba(0,0,0,0.14),0px 2px 16px 1px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation8 {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation9 {
+  box-shadow: 0px 5px 6px -3px rgba(0,0,0,0.2),0px 9px 12px 1px rgba(0,0,0,0.14),0px 3px 16px 2px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation10 {
+  box-shadow: 0px 6px 6px -3px rgba(0,0,0,0.2),0px 10px 14px 1px rgba(0,0,0,0.14),0px 4px 18px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation11 {
+  box-shadow: 0px 6px 7px -4px rgba(0,0,0,0.2),0px 11px 15px 1px rgba(0,0,0,0.14),0px 4px 20px 3px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation12 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 12px 17px 2px rgba(0,0,0,0.14),0px 5px 22px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation13 {
+  box-shadow: 0px 7px 8px -4px rgba(0,0,0,0.2),0px 13px 19px 2px rgba(0,0,0,0.14),0px 5px 24px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation14 {
+  box-shadow: 0px 7px 9px -4px rgba(0,0,0,0.2),0px 14px 21px 2px rgba(0,0,0,0.14),0px 5px 26px 4px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation15 {
+  box-shadow: 0px 8px 9px -5px rgba(0,0,0,0.2),0px 15px 22px 2px rgba(0,0,0,0.14),0px 6px 28px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation16 {
+  box-shadow: 0px 8px 10px -5px rgba(0,0,0,0.2),0px 16px 24px 2px rgba(0,0,0,0.14),0px 6px 30px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation17 {
+  box-shadow: 0px 8px 11px -5px rgba(0,0,0,0.2),0px 17px 26px 2px rgba(0,0,0,0.14),0px 6px 32px 5px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation18 {
+  box-shadow: 0px 9px 11px -5px rgba(0,0,0,0.2),0px 18px 28px 2px rgba(0,0,0,0.14),0px 7px 34px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation19 {
+  box-shadow: 0px 9px 12px -6px rgba(0,0,0,0.2),0px 19px 29px 2px rgba(0,0,0,0.14),0px 7px 36px 6px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation20 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 20px 31px 3px rgba(0,0,0,0.14),0px 8px 38px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation21 {
+  box-shadow: 0px 10px 13px -6px rgba(0,0,0,0.2),0px 21px 33px 3px rgba(0,0,0,0.14),0px 8px 40px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation22 {
+  box-shadow: 0px 10px 14px -6px rgba(0,0,0,0.2),0px 22px 35px 3px rgba(0,0,0,0.14),0px 8px 42px 7px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation23 {
+  box-shadow: 0px 11px 14px -7px rgba(0,0,0,0.2),0px 23px 36px 3px rgba(0,0,0,0.14),0px 9px 44px 8px rgba(0,0,0,0.12);
+}
+.MuiPaper-elevation24 {
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2),0px 24px 38px 3px rgba(0,0,0,0.14),0px 9px 46px 8px rgba(0,0,0,0.12);
+}
+</style><style data-jss="" data-meta="MuiTouchRipple">
+.MuiTouchRipple-root {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  overflow: hidden;
+  position: absolute;
+  border-radius: inherit;
+  pointer-events: none;
+}
+.MuiTouchRipple-ripple {
+  opacity: 0;
+  position: absolute;
+}
+.MuiTouchRipple-rippleVisible {
+  opacity: 0.3;
+  animation: MuiTouchRipple-keyframes-enter 550ms cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1);
+}
+.MuiTouchRipple-ripplePulsate {
+  animation-duration: 200ms;
+}
+.MuiTouchRipple-child {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  border-radius: 50%;
+  background-color: currentColor;
+}
+.MuiTouchRipple-childLeaving {
+  opacity: 0;
+  animation: MuiTouchRipple-keyframes-exit 550ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.MuiTouchRipple-childPulsate {
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: MuiTouchRipple-keyframes-pulsate 2500ms cubic-bezier(0.4, 0, 0.2, 1) 200ms infinite;
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-enter {
+  0% {
+    opacity: 0.1;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-exit {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes MuiTouchRipple-keyframes-pulsate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.92);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+</style><style data-jss="" data-meta="MuiButtonBase">
+.MuiButtonBase-root {
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  border-radius: 0;
+  vertical-align: middle;
+  -moz-appearance: none;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiButtonBase-root::-moz-focus-inner {
+  border-style: none;
+}
+.MuiButtonBase-root.Mui-disabled {
+  cursor: default;
+  pointer-events: none;
+}
+@media print {
+  .MuiButtonBase-root {
+    -webkit-print-color-adjust: exact;
+  }
+}
+</style><style data-jss="" data-meta="MuiIconButton">
+.MuiIconButton-root {
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+}
+.MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+.MuiIconButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  background-color: transparent;
+}
+@media (hover: none) {
+  .MuiIconButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-edgeStart {
+  margin-left: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeStart {
+  margin-left: -3px;
+}
+.MuiIconButton-edgeEnd {
+  margin-right: -12px;
+}
+.MuiIconButton-sizeSmall.MuiIconButton-edgeEnd {
+  margin-right: -3px;
+}
+.MuiIconButton-colorInherit {
+  color: inherit;
+}
+.MuiIconButton-colorPrimary {
+  color: #1362E2;
+}
+.MuiIconButton-colorPrimary:hover {
+  background-color: rgba(19, 98, 226, 0.04);
+}
+@media (hover: none) {
+  .MuiIconButton-colorPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-colorSecondary {
+  color: #FCFCFC;
+}
+.MuiIconButton-colorSecondary:hover {
+  background-color: rgba(252, 252, 252, 0.04);
+}
+@media (hover: none) {
+  .MuiIconButton-colorSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiIconButton-sizeSmall {
+  padding: 3px;
+  font-size: 1.125rem;
+}
+.MuiIconButton-label {
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+}
+</style><style data-jss="" data-meta="MuiAppBar">
+.MuiAppBar-root {
+  width: 100%;
+  display: flex;
+  z-index: 1100;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+@media (max-width:959.95px) {
+  .MuiAppBar-root {
+    height: 68px;
+  }
+}
+.MuiAppBar-positionFixed {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: fixed;
+}
+@media print {
+  .MuiAppBar-positionFixed {
+    position: absolute;
+  }
+}
+.MuiAppBar-positionAbsolute {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: absolute;
+}
+.MuiAppBar-positionSticky {
+  top: 0;
+  left: auto;
+  right: 0;
+  position: sticky;
+}
+.MuiAppBar-positionStatic {
+  position: static;
+}
+.MuiAppBar-positionRelative {
+  position: relative;
+}
+.MuiAppBar-colorDefault {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #f5f5f5;
+}
+.MuiAppBar-colorPrimary {
+  color: #FCFCFC;
+  background-color: #1362E2;
+}
+.MuiAppBar-colorSecondary {
+  color: #1362E2;
+  background-color: #FCFCFC;
+}
+.MuiAppBar-colorInherit {
+  color: inherit;
+}
+.MuiAppBar-colorTransparent {
+  color: inherit;
+  background-color: transparent;
+}
+</style><style data-jss="" data-meta="MuiAvatar">
+.MuiAvatar-root {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  font-size: 1.25rem;
+  align-items: center;
+  flex-shrink: 0;
+  font-family: Inter,Arial,sans-serif;
+  line-height: 1;
+  user-select: none;
+  border-radius: 50%;
+  justify-content: center;
+}
+.MuiAvatar-colorDefault {
+  color: #F5F7F7;
+  background-color: #bdbdbd;
+}
+.MuiAvatar-rounded {
+  border-radius: 4px;
+}
+.MuiAvatar-square {
+  border-radius: 0;
+}
+.MuiAvatar-img {
+  color: transparent;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  text-align: center;
+  text-indent: 10000px;
+}
+.MuiAvatar-fallback {
+  width: 75%;
+  height: 75%;
+}
+</style><style data-jss="" data-meta="MuiBox">
+
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiBox">
+</style><style data-jss="" data-meta="MuiTypography">
+.MuiTypography-root {
+  margin: 0;
+}
+.MuiTypography-body2 {
+  font-size: 14px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+}
+.MuiTypography-body1 {
+  font-size: 16px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 22px;
+}
+.MuiTypography-caption {
+  font-size: 12px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+}
+.MuiTypography-button {
+  font-size: 0.875rem;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  text-transform: uppercase;
+}
+.MuiTypography-h1 {
+  font-size: 6rem;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.167;
+}
+.MuiTypography-h2 {
+  font-size: 3.75rem;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.MuiTypography-h3 {
+  font-size: 28px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+}
+.MuiTypography-h4 {
+  font-size: 24px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 32px;
+}
+.MuiTypography-h5 {
+  font-size: 20px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 24px;
+}
+.MuiTypography-h6 {
+  font-size: 18px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 25px;
+}
+.MuiTypography-subtitle1 {
+  color: #6B747D;
+  font-size: 14px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+}
+.MuiTypography-subtitle2 {
+  color: #1362E2;
+  font-size: 14px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 18px;
+}
+.MuiTypography-overline {
+  font-size: 0.75rem;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 400;
+  line-height: 2.66;
+  text-transform: uppercase;
+}
+.MuiTypography-srOnly {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+.MuiTypography-alignLeft {
+  text-align: left;
+}
+.MuiTypography-alignCenter {
+  text-align: center;
+}
+.MuiTypography-alignRight {
+  text-align: right;
+}
+.MuiTypography-alignJustify {
+  text-align: justify;
+}
+.MuiTypography-noWrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.MuiTypography-gutterBottom {
+  margin-bottom: 0.35em;
+}
+.MuiTypography-paragraph {
+  margin-bottom: 16px;
+}
+.MuiTypography-colorInherit {
+  color: inherit;
+}
+.MuiTypography-colorPrimary {
+  color: #1362E2;
+}
+.MuiTypography-colorSecondary {
+  color: #FCFCFC;
+}
+.MuiTypography-colorTextPrimary {
+  color: #203645;
+}
+.MuiTypography-colorTextSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTypography-colorError {
+  color: #f44336;
+}
+.MuiTypography-displayInline {
+  display: inline;
+}
+.MuiTypography-displayBlock {
+  display: block;
+}
+</style><style data-jss="" data-meta="MuiButton">
+.MuiButton-root {
+  color: #203645;
+  padding: 8px 24px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 9999px;
+  text-transform: none;
+}
+.MuiButton-root:hover {
+  text-decoration: none;
+  background-color: rgba(32, 54, 69, 0.04);
+}
+.MuiButton-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-root:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-root:hover.Mui-disabled {
+  background-color: transparent;
+}
+.MuiButton-label {
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+}
+.MuiButton-text {
+  padding: 6px 8px;
+}
+.MuiButton-textPrimary {
+  color: #1362E2;
+}
+.MuiButton-textPrimary:hover {
+  color: #0475F5;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.MuiButton-textPrimary:active {
+  color: #1D41C3;
+  text-decoration: underline;
+}
+@media (hover: none) {
+  .MuiButton-textPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-textSecondary {
+  color: #FCFCFC;
+}
+.MuiButton-textSecondary:hover {
+  background-color: rgba(252, 252, 252, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-textSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlined {
+  border: 2px solid #1362E2;
+  padding: 5px 15px;
+}
+.MuiButton-outlined.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiButton-outlined.MuiButton-outlined {
+  color: #1362E2;
+  font-weight: 1000;
+}
+.MuiButton-outlinedPrimary {
+  color: #1362E2;
+  border: 1px solid rgba(19, 98, 226, 0.5);
+}
+.MuiButton-outlinedPrimary:hover {
+  border: 1px solid #1362E2;
+  background-color: rgba(19, 98, 226, 0.04);
+}
+@media (hover: none) {
+  .MuiButton-outlinedPrimary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-outlinedSecondary {
+  color: #FCFCFC;
+  border: 1px solid rgba(252, 252, 252, 0.5);
+}
+.MuiButton-outlinedSecondary:hover {
+  border: 1px solid #FCFCFC;
+  background-color: rgba(252, 252, 252, 0.04);
+}
+.MuiButton-outlinedSecondary.Mui-disabled {
+  border: 1px solid rgba(0, 0, 0, 0.26);
+}
+@media (hover: none) {
+  .MuiButton-outlinedSecondary:hover {
+    background-color: transparent;
+  }
+}
+.MuiButton-contained {
+  color: rgba(0, 0, 0, 0.87);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  background-color: #e0e0e0;
+}
+.MuiButton-contained:hover {
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  background-color: #d5d5d5;
+}
+.MuiButton-contained.Mui-focusVisible {
+  box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2),0px 6px 10px 0px rgba(0,0,0,0.14),0px 1px 18px 0px rgba(0,0,0,0.12);
+}
+.MuiButton-contained:active {
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2),0px 8px 10px 1px rgba(0,0,0,0.14),0px 3px 14px 2px rgba(0,0,0,0.12);
+}
+.MuiButton-contained.Mui-disabled {
+  color: rgba(0, 0, 0, 0.26);
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.12);
+}
+@media (min-width:960px) {
+  .MuiButton-contained {
+    height: 56px;
+  }
+}
+@media (max-width:959.95px) {
+  .MuiButton-contained {
+    height: 40px;
+  }
+}
+.MuiButton-contained.Mui-disabled {
+  color: #FCFCFC;
+  background-color: #B0B4B5;
+}
+@media (hover: none) {
+  .MuiButton-contained:hover {
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+    background-color: #e0e0e0;
+  }
+}
+.MuiButton-contained:hover.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.12);
+}
+.MuiButton-containedPrimary {
+  color: #FCFCFC;
+  background-color: #1362E2;
+}
+.MuiButton-containedPrimary:hover {
+  background-color: rgb(13, 68, 158);
+}
+@media (hover: none) {
+  .MuiButton-containedPrimary:hover {
+    background-color: #1362E2;
+  }
+}
+.MuiButton-containedSecondary {
+  color: #1362E2;
+  border: 1.5px solid #1362E2;
+  background-color: #FCFCFC;
+}
+.MuiButton-containedSecondary:hover {
+  color: #1362E2;
+  text-decoration: underline;
+  background-color: transparent;
+}
+.MuiButton-containedSecondary:active {
+  color: #1D41C3;
+  text-decoration: underline;
+}
+.MuiButton-containedSecondary.Mui-disabled {
+  color: #B0B4B5;
+  border-color: #B0B4B5;
+  background-color: #FCFCFC;
+}
+@media (hover: none) {
+  .MuiButton-containedSecondary:hover {
+    background-color: #FCFCFC;
+  }
+}
+.MuiButton-disableElevation {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:hover {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-focusVisible {
+  box-shadow: none;
+}
+.MuiButton-disableElevation:active {
+  box-shadow: none;
+}
+.MuiButton-disableElevation.Mui-disabled {
+  box-shadow: none;
+}
+.MuiButton-colorInherit {
+  color: inherit;
+  border-color: currentColor;
+}
+.MuiButton-textSizeSmall {
+  padding: 0;
+  font-size: 0.8125rem;
+  border-radius: 0px;
+}
+.MuiButton-textSizeLarge {
+  padding: 8px 11px;
+  font-size: 0.9375rem;
+}
+.MuiButton-outlinedSizeSmall {
+  padding: 3px 9px;
+  font-size: 0.8125rem;
+}
+.MuiButton-outlinedSizeLarge {
+  padding: 7px 21px;
+  font-size: 0.9375rem;
+}
+.MuiButton-containedSizeSmall {
+  padding: 4px 10px;
+  font-size: 0.8125rem;
+}
+.MuiButton-containedSizeLarge {
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+}
+.MuiButton-sizeSmall {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+.MuiButton-sizeLarge {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+.MuiButton-fullWidth {
+  width: 100%;
+}
+.MuiButton-startIcon {
+  display: inherit;
+  margin-left: -4px;
+  margin-right: 8px;
+}
+.MuiButton-startIcon.MuiButton-iconSizeSmall {
+  margin-left: -2px;
+}
+.MuiButton-endIcon {
+  display: inherit;
+  margin-left: 8px;
+  margin-right: -4px;
+}
+.MuiButton-endIcon.MuiButton-iconSizeSmall {
+  margin-right: -2px;
+}
+.MuiButton-iconSizeSmall > *:first-child {
+  font-size: 18px;
+}
+.MuiButton-iconSizeMedium > *:first-child {
+  font-size: 20px;
+}
+.MuiButton-iconSizeLarge > *:first-child {
+  font-size: 22px;
+}
+</style><style data-jss="" data-meta="MuiCssBaseline">
+html {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+strong, b {
+  font-weight: 700;
+}
+body {
+  color: #203645;
+  margin: 0;
+  font-size: 14px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 18px;
+  background-color: #F5F7F7;
+}
+@media print {
+  body {
+    background-color: #fff;
+  }
+}
+body::backdrop {
+  background-color: #F5F7F7;
+}
+</style><style data-jss="" data-meta="MuiDialog">
+@media print {
+  .MuiDialog-root {
+    position: absolute !important;
+  }
+}
+.MuiDialog-scrollPaper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MuiDialog-scrollBody {
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
+.MuiDialog-scrollBody:after {
+  width: 0;
+  height: 100%;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+.MuiDialog-container {
+  height: 100%;
+  outline: 0;
+}
+@media print {
+  .MuiDialog-container {
+    height: auto;
+  }
+}
+.MuiDialog-paper {
+  margin: 32px;
+  position: relative;
+  overflow-y: auto;
+  border-radius: 12px;
+}
+@media print {
+  .MuiDialog-paper {
+    box-shadow: none;
+    overflow-y: visible;
+  }
+}
+.MuiDialog-paperScrollPaper {
+  display: flex;
+  max-height: calc(100% - 64px);
+  flex-direction: column;
+}
+.MuiDialog-paperScrollBody {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.MuiDialog-paperWidthFalse {
+  max-width: calc(100% - 64px);
+}
+.MuiDialog-paperWidthXs {
+  max-width: 444px;
+}
+@media (max-width:507.95px) {
+  .MuiDialog-paperWidthXs.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthSm {
+  max-width: 600px;
+}
+@media (max-width:439.95px) {
+  .MuiDialog-paperWidthSm.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthMd {
+  max-width: 769px;
+}
+@media (max-width:832.95px) {
+  .MuiDialog-paperWidthMd.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthLg {
+  max-width: 1025px;
+}
+@media (max-width:1088.95px) {
+  .MuiDialog-paperWidthLg.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperWidthXl {
+  max-width: 1441px;
+}
+@media (max-width:1504.95px) {
+  .MuiDialog-paperWidthXl.MuiDialog-paperScrollBody {
+    max-width: calc(100% - 64px);
+  }
+}
+.MuiDialog-paperFullWidth {
+  width: 100%;
+  margin: 0;
+}
+.MuiDialog-paperFullScreen {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  max-width: 100%;
+  max-height: none;
+  border-radius: 0;
+}
+.MuiDialog-paperFullScreen.MuiDialog-paperScrollBody {
+  margin: 0;
+  max-width: 100%;
+}
+</style><style data-jss="" data-meta="MuiDivider">
+.MuiDivider-root {
+  border: none;
+  height: 2px;
+  margin: 0;
+  flex-shrink: 0;
+  background-color: #F0F3F7;
+}
+.MuiDivider-absolute {
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+.MuiDivider-inset {
+  margin-left: 72px;
+}
+.MuiDivider-light {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiDivider-middle {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.MuiDivider-vertical {
+  width: 1px;
+  height: 100%;
+}
+.MuiDivider-flexItem {
+  height: auto;
+  align-self: stretch;
+}
+</style><style data-jss="" data-meta="MuiDrawer">
+.MuiDrawer-docked {
+  flex: 0 0 auto;
+}
+.MuiDrawer-paper {
+  top: 0;
+  flex: 1 0 auto;
+  height: 100%;
+  display: flex;
+  outline: 0;
+  z-index: 1200;
+  position: fixed;
+  overflow-y: auto;
+  flex-direction: column;
+  -webkit-overflow-scrolling: touch;
+}
+.MuiDrawer-paperAnchorLeft {
+  left: 0;
+  right: auto;
+}
+.MuiDrawer-paperAnchorRight {
+  left: auto;
+  right: 0;
+}
+.MuiDrawer-paperAnchorTop {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: auto;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorBottom {
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  max-height: 100%;
+}
+.MuiDrawer-paperAnchorDockedLeft {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedTop {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedRight {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+.MuiDrawer-paperAnchorDockedBottom {
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+</style><style data-jss="" data-meta="MuiFormLabel">
+.MuiFormLabel-root {
+  color: #203645;
+  padding: 0;
+  font-size: 14px;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.008em;
+}
+.MuiFormLabel-root.Mui-focused {
+  color: #1362E2;
+}
+.MuiFormLabel-root.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+}
+.MuiFormLabel-root.Mui-error {
+  color: #f44336;
+}
+.MuiFormLabel-colorSecondary.Mui-focused {
+  color: #FCFCFC;
+}
+.MuiFormLabel-asterisk {
+  color: #BD2947;
+}
+.MuiFormLabel-asterisk.Mui-error {
+  color: #f44336;
+}
+</style><style data-jss="" data-meta="MuiGrid">
+.MuiGrid-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.MuiGrid-item {
+  margin: 0;
+  box-sizing: border-box;
+}
+.MuiGrid-zeroMinWidth {
+  min-width: 0;
+}
+.MuiGrid-direction-xs-column {
+  flex-direction: column;
+}
+.MuiGrid-direction-xs-column-reverse {
+  flex-direction: column-reverse;
+}
+.MuiGrid-direction-xs-row-reverse {
+  flex-direction: row-reverse;
+}
+.MuiGrid-wrap-xs-nowrap {
+  flex-wrap: nowrap;
+}
+.MuiGrid-wrap-xs-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.MuiGrid-align-items-xs-center {
+  align-items: center;
+}
+.MuiGrid-align-items-xs-flex-start {
+  align-items: flex-start;
+}
+.MuiGrid-align-items-xs-flex-end {
+  align-items: flex-end;
+}
+.MuiGrid-align-items-xs-baseline {
+  align-items: baseline;
+}
+.MuiGrid-align-content-xs-center {
+  align-content: center;
+}
+.MuiGrid-align-content-xs-flex-start {
+  align-content: flex-start;
+}
+.MuiGrid-align-content-xs-flex-end {
+  align-content: flex-end;
+}
+.MuiGrid-align-content-xs-space-between {
+  align-content: space-between;
+}
+.MuiGrid-align-content-xs-space-around {
+  align-content: space-around;
+}
+.MuiGrid-justify-content-xs-center {
+  justify-content: center;
+}
+.MuiGrid-justify-content-xs-flex-end {
+  justify-content: flex-end;
+}
+.MuiGrid-justify-content-xs-space-between {
+  justify-content: space-between;
+}
+.MuiGrid-justify-content-xs-space-around {
+  justify-content: space-around;
+}
+.MuiGrid-justify-content-xs-space-evenly {
+  justify-content: space-evenly;
+}
+.MuiGrid-spacing-xs-1 {
+  width: calc(100% + 8px);
+  margin: -4px;
+}
+.MuiGrid-spacing-xs-1 > .MuiGrid-item {
+  padding: 4px;
+}
+.MuiGrid-spacing-xs-2 {
+  width: calc(100% + 16px);
+  margin: -8px;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 8px;
+}
+.MuiGrid-spacing-xs-3 {
+  width: calc(100% + 24px);
+  margin: -12px;
+}
+.MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 12px;
+}
+.MuiGrid-spacing-xs-4 {
+  width: calc(100% + 32px);
+  margin: -16px;
+}
+.MuiGrid-spacing-xs-4 > .MuiGrid-item {
+  padding: 16px;
+}
+.MuiGrid-spacing-xs-5 {
+  width: calc(100% + 40px);
+  margin: -20px;
+}
+.MuiGrid-spacing-xs-5 > .MuiGrid-item {
+  padding: 20px;
+}
+.MuiGrid-spacing-xs-6 {
+  width: calc(100% + 48px);
+  margin: -24px;
+}
+.MuiGrid-spacing-xs-6 > .MuiGrid-item {
+  padding: 24px;
+}
+.MuiGrid-spacing-xs-7 {
+  width: calc(100% + 56px);
+  margin: -28px;
+}
+.MuiGrid-spacing-xs-7 > .MuiGrid-item {
+  padding: 28px;
+}
+.MuiGrid-spacing-xs-8 {
+  width: calc(100% + 64px);
+  margin: -32px;
+}
+.MuiGrid-spacing-xs-8 > .MuiGrid-item {
+  padding: 32px;
+}
+.MuiGrid-spacing-xs-9 {
+  width: calc(100% + 72px);
+  margin: -36px;
+}
+.MuiGrid-spacing-xs-9 > .MuiGrid-item {
+  padding: 36px;
+}
+.MuiGrid-spacing-xs-10 {
+  width: calc(100% + 80px);
+  margin: -40px;
+}
+.MuiGrid-spacing-xs-10 > .MuiGrid-item {
+  padding: 40px;
+}
+.MuiGrid-grid-xs-auto {
+  flex-grow: 0;
+  max-width: none;
+  flex-basis: auto;
+}
+.MuiGrid-grid-xs-true {
+  flex-grow: 1;
+  max-width: 100%;
+  flex-basis: 0;
+}
+.MuiGrid-grid-xs-1 {
+  flex-grow: 0;
+  max-width: 8.333333%;
+  flex-basis: 8.333333%;
+}
+.MuiGrid-grid-xs-2 {
+  flex-grow: 0;
+  max-width: 16.666667%;
+  flex-basis: 16.666667%;
+}
+.MuiGrid-grid-xs-3 {
+  flex-grow: 0;
+  max-width: 25%;
+  flex-basis: 25%;
+}
+.MuiGrid-grid-xs-4 {
+  flex-grow: 0;
+  max-width: 33.333333%;
+  flex-basis: 33.333333%;
+}
+.MuiGrid-grid-xs-5 {
+  flex-grow: 0;
+  max-width: 41.666667%;
+  flex-basis: 41.666667%;
+}
+.MuiGrid-grid-xs-6 {
+  flex-grow: 0;
+  max-width: 50%;
+  flex-basis: 50%;
+}
+.MuiGrid-grid-xs-7 {
+  flex-grow: 0;
+  max-width: 58.333333%;
+  flex-basis: 58.333333%;
+}
+.MuiGrid-grid-xs-8 {
+  flex-grow: 0;
+  max-width: 66.666667%;
+  flex-basis: 66.666667%;
+}
+.MuiGrid-grid-xs-9 {
+  flex-grow: 0;
+  max-width: 75%;
+  flex-basis: 75%;
+}
+.MuiGrid-grid-xs-10 {
+  flex-grow: 0;
+  max-width: 83.333333%;
+  flex-basis: 83.333333%;
+}
+.MuiGrid-grid-xs-11 {
+  flex-grow: 0;
+  max-width: 91.666667%;
+  flex-basis: 91.666667%;
+}
+.MuiGrid-grid-xs-12 {
+  flex-grow: 0;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+@media (min-width:376px) {
+  .MuiGrid-grid-sm-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-sm-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-sm-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-sm-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-sm-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-sm-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-sm-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-sm-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-sm-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-sm-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-sm-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-sm-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-sm-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-sm-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:769px) {
+  .MuiGrid-grid-md-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-md-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-md-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-md-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-md-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-md-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-md-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-md-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-md-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-md-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-md-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-md-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-md-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-md-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1025px) {
+  .MuiGrid-grid-lg-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-lg-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-lg-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-lg-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-lg-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-lg-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-lg-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-lg-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-lg-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-lg-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-lg-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-lg-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-lg-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-lg-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+@media (min-width:1441px) {
+  .MuiGrid-grid-xl-auto {
+    flex-grow: 0;
+    max-width: none;
+    flex-basis: auto;
+  }
+  .MuiGrid-grid-xl-true {
+    flex-grow: 1;
+    max-width: 100%;
+    flex-basis: 0;
+  }
+  .MuiGrid-grid-xl-1 {
+    flex-grow: 0;
+    max-width: 8.333333%;
+    flex-basis: 8.333333%;
+  }
+  .MuiGrid-grid-xl-2 {
+    flex-grow: 0;
+    max-width: 16.666667%;
+    flex-basis: 16.666667%;
+  }
+  .MuiGrid-grid-xl-3 {
+    flex-grow: 0;
+    max-width: 25%;
+    flex-basis: 25%;
+  }
+  .MuiGrid-grid-xl-4 {
+    flex-grow: 0;
+    max-width: 33.333333%;
+    flex-basis: 33.333333%;
+  }
+  .MuiGrid-grid-xl-5 {
+    flex-grow: 0;
+    max-width: 41.666667%;
+    flex-basis: 41.666667%;
+  }
+  .MuiGrid-grid-xl-6 {
+    flex-grow: 0;
+    max-width: 50%;
+    flex-basis: 50%;
+  }
+  .MuiGrid-grid-xl-7 {
+    flex-grow: 0;
+    max-width: 58.333333%;
+    flex-basis: 58.333333%;
+  }
+  .MuiGrid-grid-xl-8 {
+    flex-grow: 0;
+    max-width: 66.666667%;
+    flex-basis: 66.666667%;
+  }
+  .MuiGrid-grid-xl-9 {
+    flex-grow: 0;
+    max-width: 75%;
+    flex-basis: 75%;
+  }
+  .MuiGrid-grid-xl-10 {
+    flex-grow: 0;
+    max-width: 83.333333%;
+    flex-basis: 83.333333%;
+  }
+  .MuiGrid-grid-xl-11 {
+    flex-grow: 0;
+    max-width: 91.666667%;
+    flex-basis: 91.666667%;
+  }
+  .MuiGrid-grid-xl-12 {
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+}
+</style><style data-jss="" data-meta="MuiPopover">
+.MuiPopover-paper {
+  outline: 0;
+  position: absolute;
+  max-width: calc(100% - 32px);
+  min-width: 16px;
+  max-height: calc(100% - 32px);
+  min-height: 16px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+</style><style data-jss="" data-meta="MuiMenu">
+.MuiMenu-paper {
+  max-height: calc(100% - 96px);
+  -webkit-overflow-scrolling: touch;
+}
+.MuiMenu-list {
+  outline: 0;
+}
+</style><style data-jss="" data-meta="MuiTab">
+.MuiTab-root {
+  padding: 0px 12px 0px 12px;
+  overflow: hidden;
+  position: relative;
+  font-size: 0.875rem;
+  max-width: 264px;
+  min-width: 0;
+  box-sizing: border-box;
+  min-height: 48px;
+  text-align: center;
+  flex-shrink: 0;
+  font-family: Inter,Arial,sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  white-space: normal;
+  text-transform: none;
+}
+@media (min-width:376px) {
+  .MuiTab-root {
+    min-width: 160px;
+  }
+}
+@media (min-width: 0px) {
+  .MuiTab-root {
+    min-width: 0;
+  }
+}
+.MuiTab-root.Mui-selected {
+  color: #1362E2;
+}
+.MuiTab-labelIcon {
+  min-height: 72px;
+  padding-top: 9px;
+}
+.MuiTab-labelIcon .MuiTab-wrapper > *:first-child {
+  margin-bottom: 6px;
+}
+.MuiTab-textColorInherit {
+  color: inherit;
+  opacity: 0.7;
+}
+.MuiTab-textColorInherit.Mui-selected {
+  opacity: 1;
+}
+.MuiTab-textColorInherit.Mui-disabled {
+  opacity: 0.5;
+}
+.MuiTab-textColorPrimary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #1362E2;
+}
+.MuiTab-textColorPrimary.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+}
+.MuiTab-textColorSecondary {
+  color: rgba(0, 0, 0, 0.54);
+}
+.MuiTab-textColorSecondary.Mui-selected {
+  color: #FCFCFC;
+}
+.MuiTab-textColorSecondary.Mui-disabled {
+  color: rgba(0, 0, 0, 0.38);
+}
+.MuiTab-fullWidth {
+  flex-grow: 1;
+  max-width: none;
+  flex-basis: 0;
+  flex-shrink: 1;
+}
+.MuiTab-wrapped {
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+.MuiTab-wrapper {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+</style><style data-jss="" data-meta="MuiToolbar">
+.MuiToolbar-root {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.MuiToolbar-gutters {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width:376px) {
+  .MuiToolbar-gutters {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+.MuiToolbar-regular {
+  min-height: 56px;
+}
+@media (min-width:0px) and (orientation: landscape) {
+  .MuiToolbar-regular {
+    min-height: 48px;
+  }
+}
+@media (min-width:376px) {
+  .MuiToolbar-regular {
+    min-height: 64px;
+  }
+}
+.MuiToolbar-dense {
+  min-height: 48px;
+}
+</style><style data-jss="" data-meta="PrivateTabIndicator">
+.jss78 {
+  width: 100%;
+  bottom: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.jss79 {
+  background-color: #1362E2;
+}
+.jss80 {
+  background-color: #FCFCFC;
+}
+.jss81 {
+  right: 0;
+  width: 2px;
+  height: 100%;
+}
+</style><style data-jss="" data-meta="MuiTabScrollButton">
+.MuiTabScrollButton-root {
+  width: 28px;
+  opacity: 0.8;
+  overflow: hidden;
+  transition: width 0.2s;
+  flex-shrink: 0;
+  transition-timing-function: ease-out;
+}
+.MuiTabScrollButton-root.Mui-disabled {
+  opacity: 0;
+}
+.MuiTabScrollButton-root.Mui-disabled {
+  width: 0;
+}
+.MuiTabScrollButton-vertical {
+  width: 100%;
+  height: 40px;
+}
+.MuiTabScrollButton-vertical svg {
+  transform: rotate(90deg);
+}
+</style><style data-jss="" data-meta="MuiTabs">
+.MuiTabs-root {
+  display: flex;
+  overflow: hidden;
+  min-height: 48px;
+  -webkit-overflow-scrolling: touch;
+}
+.MuiTabs-vertical {
+  flex-direction: column;
+}
+.MuiTabs-flexContainer {
+  display: flex;
+}
+.MuiTabs-flexContainerVertical {
+  flex-direction: column;
+}
+.MuiTabs-centered {
+  justify-content: center;
+}
+.MuiTabs-scroller {
+  flex: 1 1 auto;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+}
+.MuiTabs-fixed {
+  width: 100%;
+  overflow-x: hidden;
+}
+.MuiTabs-scrollable {
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.MuiTabs-scrollable::-webkit-scrollbar {
+  display: none;
+}
+@media (max-width:375.95px) {
+  .MuiTabs-scrollButtonsDesktop {
+    display: none;
+  }
+}
+</style><style data-jss="" data-meta="Connect(s2e)">
+.jss4 {
+  color: #1362E2;
+}
+</style><style data-jss="" data-meta="Connect(iC0)">
+.jss5 {
+  margin-right: 8px;
+}
+.jss6 {
+  margin: 8px;
+}
+</style><style data-jss="" data-meta="Connect(d2e)">
+
+</style><style data-jss="" data-meta="Connect(x)">
+.jss7 {
+  margin-right: 8px;
+}
+.jss8 {
+  color: #1362E2;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss12 {
+  color: #BD2947;
+  border-color: #BD2947;
+}
+.jss12:hover {
+  color: #FF5772;
+  border-color: #FF5772;
+}
+.jss12:active {
+  color: #BD2947;
+  border-color: #BD2947;
+}
+.jss12:focus {
+  color: #BD2947;
+  border-color: #BD2947;
+}
+.jss13 {
+  color: #FCFCFC;
+  height: 36.5px;
+  background-color: #BD2947;
+}
+.jss13:hover {
+  background-color: #FF5772;
+}
+.jss13:active {
+  background-color: #BD2947;
+}
+.jss13:focus {
+  background-color: #BD2947;
+}
+.jss14 {
+  color: #FCFCFC;
+  height: 36.5px;
+  background-color: #1362E2;
+}
+.jss14:hover {
+  border-color: #0475F5;
+  background-color: #0475F5;
+}
+.jss14:active {
+  border-color: #1D41C3;
+  background-color: #1D41C3;
+}
+.jss14:focus {
+  border-color: #0079FF;
+  background-color: #0079FF;
+}
+.jss15 {
+  color: #1362E2;
+  border-color: #1362E2;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss21 {
+  margin-bottom: 20px;
+}
+</style><style data-jss="" data-meta="Connect(the)">
+.jss9 {
+  width: 100%;
+  max-width: 360px;
+  background-color: #fff;
+}
+.jss10 {
+  margin: 8px;
+}
+.jss11 {
+  margin: 8px;
+}
+</style><style data-jss="" data-meta="makeStyles">
+.jss73 {
+  color: #FFFFFF;
+  width: 32px;
+  height: 32px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #000000;
+}
+</style><style data-jss="" data-meta="withI18nextTranslation(Connect(Obe))">
+.jss46 {
+  color: #203645;
+  padding: 5px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: #C1F4EF;
+}
+</style><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/59/1/common.js"></script><script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/59/1/util.js"></script></head>
+
+	<body style="" class="">
+				<div id="app"><div class="main-wrapper"><div class="loading-overlay " data-hr-id="loading-indicator"><div class="loading-icon"><svg id="gear" width="121" height="120" viewBox="0 0 121 120" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M16.5 60C16.5 84.3005 36.1995 104 60.5 104C84.8005 104 104.5 84.3005 104.5 60C104.5 35.6995 84.8005 16 60.5 16C36.1995 16 16.5 35.6995 16.5 60ZM60.5 0C27.3629 0 0.5 26.8629 0.5 60C0.5 93.1371 27.3629 120 60.5 120C93.6371 120 120.5 93.1371 120.5 60C120.5 26.8629 93.6371 0 60.5 0Z" fill="#E5EFFF"></path><path d="M16.5 60C16.5 35.6995 36.1995 16 60.5 16C64.9183 16 68.5 12.4183 68.5 8C68.5 3.58172 64.9183 0 60.5 0C27.3629 0 0.5 26.8629 0.5 60H16.5Z" fill="#99C0FF"></path></svg><div>Loading</div></div></div><div><div><div data-hr-id="menu-page"><header class="MuiPaper-root MuiAppBar-root MuiAppBar-positionSticky MuiAppBar-colorSecondary MuiPaper-elevation4" style="box-shadow: rgba(2, 2, 15, 0.06) 0px 0px 72px, rgba(2, 2, 15, 0.02) 0px 0px 32px, rgba(2, 2, 15, 0.01) 0px 0px 88px; z-index: 900;"><div class="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto"><button class="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeStart" tabindex="0" type="button" aria-label="Back to Menu" fdprocessedid="tyiyi8" style="border: 0.3px solid rgb(196, 212, 224); padding: 10px; margin: 10px 0px;"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="color: rgb(32, 54, 69); height: 24px; width: 24px;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto"><img alt="Logo" src="https://s3.amazonaws.com/setup-mobilebytes.com/8135077524/logos/logo-hires_1728531409.jpeg" height="43"></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"><h4 class="MuiTypography-root MuiTypography-h4 MuiTypography-colorTextPrimary">The G.O.A.T Indian Kitchen</h4></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto"><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-flex-end"><div class="MuiGrid-root MuiGrid-item"></div><div class="MuiGrid-root MuiGrid-item"><div><div class="MuiBox-root jss49"><button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" aria-label="My Account" aria-haspopup="true" data-hr-id="profile-icon-button" fdprocessedid="3ziky" style="border: 0.3px solid rgb(196, 212, 224); padding: 7px; margin: 10px 0px;"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" style="color: rgb(32, 54, 69); height: 31px; width: 31px;"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div></div></div></div></div></div></div></header><div class="MuiBox-root jss34"><div class="MuiGrid-root MuiGrid-container MuiGrid-wrap-xs-nowrap"><div class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-true"><div class="MuiBox-root jss35"><div class="MuiBox-root jss36"><div class="MuiGrid-root MuiGrid-container MuiGrid-direction-xs-row-reverse"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12"><div class="MuiBox-root jss39"><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 MuiGrid-item MuiGrid-align-content-xs-space-between"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true MuiGrid-grid-sm-12 MuiGrid-grid-md-true MuiGrid-grid-lg-true MuiGrid-grid-xl-true"><div class="MuiBox-root jss40"><div class="MuiBox-root jss50"><div class="MuiBox-root jss51"><div class="MuiBox-root jss52"><h4 class="MuiTypography-root MuiTypography-h4">The G.O.A.T Indian Kitchen</h4></div><h6 class="MuiTypography-root MuiTypography-subtitle1"><a href="http://maps.google.com/maps?q=43.736042,-79.602041&amp;language=en-CA" target="_blank" rel="noreferrer" style="color: black; text-decoration-line: underline;">Unit 3, 130 Westmore drive</a></h6><h6 class="MuiTypography-root MuiTypography-subtitle1"><a href="http://maps.google.com/maps?q=43.736042,-79.602041&amp;language=en-CA" target="_blank" rel="noreferrer" style="color: black; text-decoration-line: underline;">Etobicoke, ON M9V 5E2</a></h6><h6 class="MuiTypography-root MuiTypography-subtitle1">Phone: (647) 726-4264</h6><button class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-textSizeSmall MuiButton-sizeSmall" tabindex="0" type="button" aria-label="View Hours" fdprocessedid="negmm1"><span class="MuiButton-label">View Hours</span><span class="MuiTouchRipple-root"></span></button></div></div></div></div></div></div></div></div></div></div><div class="MuiBox-root jss42" style="padding-top: 8px;"><div class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-space-between"><div class="MuiGrid-root MuiGrid-item"><legend class="MuiFormLabel-root"><div class="MuiBox-root jss43"><h6 class="MuiTypography-root MuiTypography-h6"></h6></div></legend></div></div><div class="MuiBox-root jss44" data-testid="menu-header" style="position: sticky; top: 66px; background-color: rgb(252, 252, 252); z-index: 1; padding-top: 20px;"><div class="MuiBox-root jss54"><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-wrap-xs-nowrap MuiGrid-align-items-xs-center"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-auto"><div class="MuiBox-root jss55"><div class="MuiBox-root jss56" style="margin-top: 4px; margin-left: 0px;"><svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="40" height="40" rx="20" fill="#F0F3F7"></rect><g clip-path="url(#clip0_993_115742)"><path d="M25 18.5C25 19.9344 24.5344 21.2594 23.75 22.3344L27.7063 26.2938C28.0969 26.6844 28.0969 27.3188 27.7063 27.7094C27.3156 28.1 26.6813 28.1 26.2906 27.7094L22.3344 23.75C21.2594 24.5375 19.9344 25 18.5 25C14.9094 25 12 22.0906 12 18.5C12 14.9094 14.9094 12 18.5 12C22.0906 12 25 14.9094 25 18.5ZM18.5 23C20.9844 23 23 20.9844 23 18.5C23 16.0156 20.9844 14 18.5 14C16.0156 14 14 16.0156 14 18.5C14 20.9844 16.0156 23 18.5 23Z" fill="#1362E2"></path></g><defs><clipPath id="clip0_993_115742"><rect width="16" height="16" fill="white" transform="translate(12 12)"></rect></clipPath></defs></svg></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-zeroMinWidth MuiGrid-grid-xs-true"><div class="MuiTabs-root" style="margin-top: -4px;"><div class="MuiButtonBase-root MuiTabScrollButton-root MuiTabs-scrollButtons MuiTabs-scrollButtonsDesktop" aria-disabled="false"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"></path></svg><span class="MuiTouchRipple-root"></span></div><div class="MuiTabs-scrollable" style="width: 99px; height: 99px; position: absolute; top: -9999px; overflow: scroll;"></div><div class="MuiTabs-scroller MuiTabs-scrollable" style="margin-bottom: 0px;"><div class="MuiTabs-flexContainer" role="tablist"><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="io9do"><span class="MuiTab-wrapper">Appetizers</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="b5u14p"><span class="MuiTab-wrapper">Biryanis</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="0zm6ev"><span class="MuiTab-wrapper">Curries</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="fxhjx"><span class="MuiTab-wrapper">Hakka</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="86bpkd"><span class="MuiTab-wrapper">Desi Breads</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="9zrjhp"><span class="MuiTab-wrapper">Soups</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="qdhs0l"><span class="MuiTab-wrapper">Special offers</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="a5nlw"><span class="MuiTab-wrapper">Drinks</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="bsebwe"><span class="MuiTab-wrapper">Tandoor</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="wylkfm"><span class="MuiTab-wrapper">Sides / Extras</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="3a3g8e"><span class="MuiTab-wrapper">Desserts</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false" fdprocessedid="vne2rx"><span class="MuiTab-wrapper">Lunch Combos</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-selected" tabindex="0" type="button" role="tab" aria-selected="true" fdprocessedid="wuk2q"><span class="MuiTab-wrapper">Biryani Tray's</span><span class="MuiTouchRipple-root"></span></button><button class="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit" tabindex="-1" type="button" role="tab" aria-selected="false"><span class="MuiTab-wrapper">Kids Menu</span><span class="MuiTouchRipple-root"></span></button></div><span class="jss78 jss79 MuiTabs-indicator" style="left: 1060.11px; width: 113.938px;"></span></div><div class="MuiButtonBase-root MuiTabScrollButton-root MuiTabs-scrollButtons MuiTabs-scrollButtonsDesktop" aria-disabled="false"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"></path></svg><span class="MuiTouchRipple-root"></span></div></div></div><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-row-reverse MuiGrid-grid-xs-2"><div class="MuiGrid-root MuiGrid-item"></div></div></div></div><hr class="MuiDivider-root"></div><div class="MuiBox-root jss45"><div class="MuiBox-root jss47"><div class="MuiGrid-root jss46 MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-space-between"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"><strong>Best in Town!</strong></div><div class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-direction-xs-row-reverse MuiGrid-grid-xs-2"><div class="MuiGrid-root MuiGrid-item"><button class="MuiButtonBase-root MuiIconButton-root" tabindex="0" type="button" aria-label="Close" fdprocessedid="n4svsba"><span class="MuiIconButton-label"><svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg></span><span class="MuiTouchRipple-root"></span></button></div></div></div></div></div><div><div class="MuiBox-root jss57" id="G221291S1061180"><h4 class="MuiTypography-root MuiTypography-h4">Appetizers</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss82 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Tawa Chicken</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Chicken cooked with exotic spices on a tawa</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss83 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Lamb Meat Balls</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$16.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss84 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Guntur Karam Chicken Chips</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Thin Sliced chicken prepared with The G.O.A.T's special spicy batter</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss85 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Curry Leaf Chicken</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss86 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Ghee Roast</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Chicken roasted in ghee and spices</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss87 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken 65</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Fried chicken tossed in unique blend of sauces and spices</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss88 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Crispy Potato Balls</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Potato</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss89 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chilli Potato</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Baby Potato prepared in special sauces</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss90 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Angara Paneer</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Paneer marinated with spices and cooked in tandoor and on pan</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss91 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Crunchy Gobi Pakoda</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss58" id="G221291S1061181"><h4 class="MuiTypography-root MuiTypography-h4">Biryanis</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss124 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken 65 Biryani</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Biryani prepared with chicken 65 and sauce</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss125 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Fry Piece Biryani</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Fried chicken and sauces cooked with biryani rice</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss126 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Mutton Dum Biryani</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$15.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss127 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Shahi Dum Chicken Biryani</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss128 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Dum Biryani</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss129 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Vegetable Dum Biryani</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss59" id="G221291S1061183"><h4 class="MuiTypography-root MuiTypography-h4">Curries</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss130 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Goat Special Chicken Curry</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss131 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Butter Chicken</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Mild Tandoor chicken cooked in gravy prepared with butter, nuts, onion and tomato</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss132 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Kadai Chicken</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss133 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Shahi Dum Chicken</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$15.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss134 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Shahi paneer</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss135 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Paneer Butter Masala</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss136 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Paneer Tikka Masala</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.49</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss137 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Dal Makhani</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss60" id="G221291S1061185"><h4 class="MuiTypography-root MuiTypography-h4">Hakka</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss138 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chilli Chicken</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Chicken cooked in special sauce prepared with sauces and chillies</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss139 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Drumsticks</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Chicken legs deep fried with batter and spices</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss140 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Fried Rice</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Fried rice prepared with chicken and spices</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss141 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Noodles</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Pre-cooked noodles sauteed with chicken and spices</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss142 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Majestic</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Friend chicken sautéed in spices and special oil blend</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss143 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Egg Fried Rice</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss144 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Gobi 65</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss145 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Veg Noodles</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss146 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Veg Fried Rice</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss61" id="G221291S1061182"><h4 class="MuiTypography-root MuiTypography-h4">Desi Breads</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss147 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Plain Naan</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss148 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Butter Naan</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Indian bread prepared in tandoor and butter spread on top</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss149 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Tandoor Roti</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.59</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss150 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Butter Garlic Naan</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Indian bread prepared with butter and garlic in tandoor</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss151 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Dilpasand NAAN</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$4.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss62" id="G221291S1061184"><h4 class="MuiTypography-root MuiTypography-h4">Soups</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss152 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Paya Shorba</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss153 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Mutton Marag</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss154 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Hot and Sour Chicken Soup</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Hot and Sour Chicken Soup</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$7.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss155 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Sweet Corn Soup</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Sweet Corn Soup</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$7.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss63" id="G221291S1062027"><h4 class="MuiTypography-root MuiTypography-h4">Special offers</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss156 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Misc</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$0.10</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss157 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Tea &amp; Samosa</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.50</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss64" id="G221291S1062888"><h4 class="MuiTypography-root MuiTypography-h4">Drinks</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss158 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Lassi/ButterMilk</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">Sweet or Salty yogurt drink</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss159 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>ThumsUp</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.25</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss160 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Limca</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.25</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss161 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Coke</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss162 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Coke diet</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss163 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Sprite</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss164 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Canada Dry</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss165 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>7 UP</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss166 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Tea</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.49</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss167 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Coffee</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss168 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Ginger Tea</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.25</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss65" id="G221291S1064307"><h4 class="MuiTypography-root MuiTypography-h4">Tandoor</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss169 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Tandoori Chicken</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss170 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Duet Sheekh Kebab</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$15.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss171 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Lasooni Chicken Kebab</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss172 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Tangdi Spicy Kebab</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$14.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss66" id="G221291S1068409"><h4 class="MuiTypography-root MuiTypography-h4">Sides / Extras</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss173 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Samosa</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1">2 Samosas filled with Potato Masala</h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$4.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss174 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Steamed Rice</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$4.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss175 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Biryani Rice Extra</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$5.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss67" id="G221291S1068781"><h4 class="MuiTypography-root MuiTypography-h4">Desserts</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss176 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Kaddu Kheer</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$5.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss177 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Sizzling Brownie</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$4.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss178 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Gulab Jamun</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$1.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss179 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Gulab Jamun with Ice Cream</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$2.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss180 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Shahi Tukda</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$5.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss68" id="G221291S1072582"><h4 class="MuiTypography-root MuiTypography-h4">Lunch Combos</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss181 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Paneer Butter Masala with Rice/Naan</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss182 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Steamed rice with Mutton Dalcha</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss183 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Steamed rice with Chicken curry</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$10.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss184 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Steamed rice with Paneer butter Masala</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss185 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Steamed rice with Vegetable curry</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$10.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss186 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken biryani single W/t chicken-65 &amp; Sweet</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss187 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken 65 with Naan</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss188 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Keema with Naan</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$13.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss189 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken koorma W/t Naan</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss190 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Steamed rice W/t Dal Tadka</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$8.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss191 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Steamed rice W/t Kaddu ka Dalcha</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss69" id="G221291S1072755"><h4 class="MuiTypography-root MuiTypography-h4">Biryani Tray's</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss192 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Biryani Family Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$26.00</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss193 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Biryani Small Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$50.00</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss194 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Biryani Medium Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$77.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss195 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken Biryani Large Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$114.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss196 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>mutton Biryani Family Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$29.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss197 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Mutton Biryani Small Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$59.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss198 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Mutton Biryani Medium Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$89.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss199 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Mutton Biryani Large Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$124.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss200 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Veg Biryani Family Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$24.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss201 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Veg Biryani Small Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$49.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss202 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Veg Biryani Medium Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$67.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss203 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Veg Biryani Large Tray</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$94.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div><div class="MuiBox-root jss70" id="G221291S1074757"><h4 class="MuiTypography-root MuiTypography-h4">Kids Menu</h4><br><div class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-4"><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss204 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chocolate Dosa</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$8.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss205 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Masala Dosa-Kids</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$8.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss206 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Coconut Rice with Butter Chicken Curry</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$12.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss207 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken fried Rice-Kids</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$11.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss208 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Breaded Wings-Kids</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$9.99</span><span class="original-price-wrapper"></span></div></div></div></div></div><div class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-6 MuiGrid-grid-xl-4" style="height: 142px;"><div class="MuiBox-root jss209 menu-item-card menu-item-card-border-desktop"><div class="item-info" data-hr-id="menu-item-card"><div><p class="MuiTypography-root item-name MuiTypography-body1"><strong>Chicken fingers</strong></p><div><h6 class="MuiTypography-root item-description MuiTypography-subtitle1"></h6></div></div><div class="item-footer"><div class="price-wrapper"><span class="item-price">$9.99</span><span class="original-price-wrapper"></span></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="MuiBox-root jss1"><div class="MuiBox-root jss2"><h6 class="MuiTypography-root MuiTypography-subtitle1 MuiTypography-colorTextPrimary MuiTypography-alignCenter">© 2024 Global Payments Inc.&nbsp;All rights reserved.</h6></div><div class="MuiBox-root jss3" data-testid="parent-quicklinks-div"><a data-testid="termsUrl" href="https://s3.amazonaws.com/resources-mobilebytes.com/agreements/online_20150909.pdf" target="_blank" id="termsUrl" rel="noreferrer" style="color: rgb(19, 98, 226);">Terms of Use</a>&nbsp;|&nbsp;<a data-testid="privacy-policy" href="https://www.heartlandpaymentsystems.com/privacy-policy" target="_blank" id="privacy-policy" rel="noreferrer" style="color: rgb(19, 98, 226);">Privacy Policy</a></div></div></div><div></div></div></div></div>
+		
+
+		<script type="text/javascript">
+			var getSubdomain = function() {
+				return "the-goat-indian-kitchen.mobilebytes.com";
+			}
+		</script>
+
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://apis.google.com/js/api:client.js" gapi_processed="true"></script>
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD__vJySms9a5ZBHfIE_lBEFNQo_JjHEaI&amp;libraries=places,geometry"></script>
+		<script type="text/javascript" src="https://api2.heartlandportico.com/SecureSubmit.v1/token/gp-1.3.0/globalpayments.js"></script>
+		<script type="module" crossorigin="" src="https://assets.hrpos.heartland.us/online/bundle.js"></script>
+		<script>
+			(function(apiKey)
+            {(function(p, e, n, d, o) {
+                var v, w, x, y, z;
+                o = p[d] = p[d] || {};
+                o._q = o._q || [];
+                v = ['initialize', 'identify', 'updateOptions', 'pageLoad', 'track'];
+                for (w = 0, x = v.length; w < x; ++w)
+                    (function(m) {
+                        o[m] =
+                            o[m] ||
+                            function() {
+                                o._q[m === v[0] ? 'unshift' : 'push'](
+                                    [m].concat([].slice.call(arguments, 0))
+                                );
+                            };
+                    })(v[w]);
+                y = e.createElement(n);
+                y.async = !0;
+                y.src = 'https://cdn.pendo.io/agent/static/' + apiKey + '/pendo.js';
+                z = e.getElementsByTagName(n)[0];
+                z.parentNode.insertBefore(y, z);
+            })(window, document, 'script', 'pendo')}
+        )('7f5866d3-3f8b-4568-4266-42b020c5d0d2');
+		</script>
+	
+
+<div class="swal2-container"><div class="swal2-overlay" tabindex="-1"></div><div class="swal2-modal" style="display: none" tabindex="-1"><div class="swal2-icon swal2-error"><span class="x-mark"><span class="line left"></span><span class="line right"></span></span></div><div class="swal2-icon swal2-question">?</div><div class="swal2-icon swal2-warning">!</div><div class="swal2-icon swal2-info">i</div><div class="swal2-icon swal2-success"><span class="line tip"></span> <span class="line long"></span><div class="placeholder"></div> <div class="fix"></div></div><img class="swal2-image"><h2></h2><div class="swal2-content"></div><input class="swal2-input"><select class="swal2-select"></select><div class="swal2-radio"></div><label for="swal2-checkbox" class="swal2-checkbox"><input type="checkbox" id="swal2-checkbox"></label><textarea class="swal2-textarea"></textarea><div class="swal2-validationerror"></div><hr class="swal2-spacer"><button class="swal2-confirm">OK</button><button class="swal2-cancel">Cancel</button><span class="swal2-close">×</span></div></div><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span><script type="text/javascript" src="https://token.monetary.co/v1/client" id="loadTokernizer"></script></body></html>
